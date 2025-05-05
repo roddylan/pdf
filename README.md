@@ -1,3 +1,18 @@
+# PDF Reader Webapp
+Self hosted (im broke) PDF Reader Webapp.
+
+(Planned) Features
+- Basic pdf capabilities (highlight, caption, etc.)
+- section save
+  - similar to what Nothing does, provide access to a 'space'/'vault' that collects 'screenshots' of areas of doc
+  - users can keep caption/take notes on it, clicking in space will take you to page
+- context aware ai (knows what page your on, whats on current page, etc., can be used for summary, quizing, etc.)
+  - can interact with whiteboard/vault
+- vault/whiteboard
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
