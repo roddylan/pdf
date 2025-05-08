@@ -12,6 +12,7 @@
     "@react-pdf/renderer": "^4.3.0",
     "module-alias": "^2.2.3",
     "next": "15.3.1",
+    "pdfjs-dist": "^5.2.133",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-pdf": "^9.2.1"
