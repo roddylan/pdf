@@ -38,14 +38,13 @@ export default function PDFPage({ pdf } : PDFProps) {
 
   return (
       <>
-      <h1>test</h1>
       {/* <iframe src={`https://docs.google.com/gview?url=${pdf}&embedded=true`} className="w-full h-full"></iframe> */}
       {/* <iframe src={curPDF} className="w-full h-full"></iframe> */}
       {/* {curPDF ? (<object data={curPDF} width="100%" height="600px" type="application/pdf">
           <p>Your browser doesn’t support PDFs. Please download the PDF to view it: <a href="/your-pdf-url.pdf">Download PDF</a>.</p>
       </object>) : <p>No pdf</p>} */}
       {curPDF ? (
-        <iframe src={`pdfjs/web/viewer.html?file=${curPDF}`} width={"100%"} height={"1000px"}></iframe>
+        <iframe src={`pdfjs/web/viewer.html?file=${curPDF}`} className="w-[100vw] h-[100vh]"></iframe>
         ) : <p>No pdf</p>
       }
       {/* <PDFViewer>
